@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(rgba(1, 0, 0, 0), rgba(0, 0, 0, 2)), url("/xampp/htdocs/prem/college/new/img/schl3.jpeg");
+        }
+
+        .section {
+            width: 100%;
+
+        }
+
+        .section .container {
+            width: 80%;
+            display: block;
+            margin: 0px auto;
+            padding: 50px 0px;
+        }
+
+        .container .title {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .container .title h1 {
+            text-transform: uppercase;
+            font-size: 30px;
+            color: red;
+
+        }
+
+        .contact-info {
+            color: rgb(11, 8, 0);
+            max-width: 500px;
+            line-height: 65px;
+            padding-left: -10px;
+            font-size: 18px;
+        }
+
+        .contact-info i {
+            margin-right: 20px;
+            font-size: 25px;
+        }
+
+        .contact-form {
+            max-width: 40px;
+            margin-right: 50px;
+            font-size: 20px;
+
+        }
+
+        .contact-form h2 {
+            color: #fff;
+            font-size: 35px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+
+        }
+
+        .contact-form .text-box {
+            color: #fff;
+            border-width: 2px;
+            border-color: black;
+            width: calc(50% - 10px);
+            height: 50px;
+            padding: 12px;
+            font-size: 15px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        .contact-form .text-box:first-child {
+            margin-right: 15px;
+
+        }
+
+        .contact-form textarea {
+            color: #fff;
+            border-width: 2px;
+            border-color: black;
+            width: 60%;
+            padding: 12px;
+            font-size: 15px;
+            min-height: 100px;
+            max-height: 200px;
+            resize: vertical;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+
+        .contact-form .send-btn {
+            float: right;
+            background: #2E94E3;
+            color: #fff;
+            border: none;
+            width: 120px;
+            height: 40px;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.6s;
+            transition-property: background;
+        }
+
+        .contact-form .send-btn:hover {
+            background: #0582E3;
+        }
+    </style>
+    <title>About us section</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="title">
+                <h1>About us</h1>
+            </div>
+
+            <div class="content">
+                <div class="article">
+                    <center>
+                        <h2>
+                            Achievers Coaching Classes, a well-known institute ,is running successfully from last 5
+                            years.<br>
+                            It is situated at Asansol, Paschim Bardhaman, West Bengal.<br>
+                            our team is always at your service to provide you the best faculties and tution services
+                            with experienced and qualified teachers.<br>
+                            It offers various courses such as BCA, MCA, BBA, MBA and BSC in computer Applications. <br>
+                            The institute is approved by AICTE. <br>Our aim is to become one of the most admired brands
+                            in the education sector and help young aspirants make their dreams come through quality
+                            teaching,technology-enabled systems,and commitment.
+                        </h2>
+                    </center>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Contact Us</h2><br>
+                    <form style="width: 50vw; margin-left:25vw;" class="contact">
+                        <input type="text" name="name" class="text-box" placeholder="Your Name"><br>
+                        <input type="email" name="email" class="text-box" placeholder="Your Email"><br>
+                        <textarea name="message" rows="5" placeholder="Your Message"></textarea><br>
+                        <input type="submit" name="submit" class="send-btn" value="send">
+                    </form>
+                </div>
+
+
+                <div class="contact-section">
+                    <div class="contact-info">
+                        <div><i class="fas fa-map-marker-alt" style="color: white"> xyz Road,Asansol,India</i></div>
+                        <div><i class="fas fa-envelope" style="color: white"> sandip@gmail.com</i></div>
+                        <div><i class="fas fa-phone" style="color: white"> +91 9470655286</i></div>
+                        <div><i class="fas fa-clock" style="color: white"> Mon-Fri 8.00 AM to 5.00PM</i></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+</body>
+
+</html>

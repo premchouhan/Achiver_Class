@@ -1,0 +1,148 @@
+body {
+    font-size: 16px;
+    font-family: system-ui;
+    background-image: linear-gradient(rgba(1, 0, 0, 0), rgba(0, 0, 0, 2)), url("/xampp/htdocs/prem/college/new/img/schl3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* .form {
+    width: 1000%;
+} */
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    width: 440px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: rgba(129, 61, 61, 0.295);
+    margin: 4% auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px
+}
+
+label i {
+    color: #999;
+    font-size: 80%;
+}
+
+input,
+select{
+border: 1px solid #ccc;
+padding: 10px;
+display: block;
+width: 80%;
+box-sizing: border-box;
+border-radius: 4px;
+background-color: #a9bae64a;
+}
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+
+.form-inline label,
+.form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 90%;
+}
+
+input[type=text] {
+    outline: none;
+}
+
+input[type="submit"] {
+
+    font-size: 110%;
+    font-weight: 100;
+    background: #a5220b;
+    border-color: #a8230c;
+    box-shadow: 0 2px 0 #000000;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #ab4e3e;
+    border-color: #b35342;
+}
+
+input[type="reset"] {
+    font-size: 110%;
+    position: center;
+    text-align: center;
+    font-weight: 100;
+    background: #20058c;
+    border-color: #110348;
+    box-shadow: 0 2px 0 #0f0f0f;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background: #0808e3;
+    border-color: #0303ff;
+}
+
+.input-1 {
+    background-image: url(\images/check.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid #01cc40;
+}
+
+.input-2 {
+    background-image: url(\images/cancel.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border: 1px solid red;
+}
+
+.input-3 {
+    border: 1px solid #01cc40 !important;
+}
+
+select {
+    outline: none !important;
+}
+
+.input-4 {
+    border: 1px solid red;
+}
+
+.box {
+    padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
